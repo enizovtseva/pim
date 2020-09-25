@@ -1,0 +1,70 @@
+.footer {
+  background-color: $baseColor;
+  padding: 28px 0 20px;
+  font-size: 16px;
+  line-height: 20px;
+  color: $white;
+
+  @media #{$md} {
+    padding: 28px 0 26px;
+  }
+
+  @media #{$lg} {
+    padding: 40px 0;
+  }
+
+  &__logo {
+    margin-bottom: 28px;
+    display: flex;
+
+    @media #{$md} {
+      margin: 0;
+    }
+
+    &-icon {
+      width: 90px;
+      height: 26px;
+
+      @media #{$md} {
+        width: 39px;
+        height: 24px;
+      }
+
+      @media #{$lg} {
+        width: 138px;
+        height: 38px;
+      }
+    }
+  }
+
+  &__copyright {
+    margin-bottom: 10px;
+
+    @media #{$md} {
+      margin: 0;
+    }
+  }
+
+  &__dev {
+    color: $white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: opacity $timing;
+
+    &:hover {
+      opacity: .7;
+    }
+  }
+
+  &_simple {
+    display: none;
+    color: $grayDarker;
+    padding: 23px 0;
+    background-color: $white;
+
+    @media #{$md} {
+      display: block;
+    }
+  }
+}

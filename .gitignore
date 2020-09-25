@@ -1,0 +1,12 @@
+node_modules
+package-lock.json
+yarn.lock
+yarn-error.log
+.Ds_Store
+
+# Editors
+.vscode
+.idea
+
+# Component generated
+dist

@@ -1,0 +1,59 @@
+//mediaqueries
+$md: "(min-width: 768px)";
+$lg: "(min-width: 1150px)";
+
+// color
+$baseColor: #2c3539;
+$grayDark: #6f7379;
+$grayDarker: #8b9398;
+$gray: #a6aaaf;
+$grayLight: #ecedef;
+$grayLighter: #f8fafc;
+
+$white: #fff;
+
+$black: #000;
+
+$green: #00b986;
+
+$red: #e34257;
+
+$yellow: #fef7b7;
+
+$purple: #b22fd6;
+$purpleDark: #67318e;
+
+$blueLight: #4ac6ff;
+$blue: #2aa7df;
+$blueDark: #2175bb;
+$blueDarker: #293c8f;
+
+// timing
+$timing: .3s;
+
+// Auth
+$authTransitionTimingFunction: ease-in-out;
+
+//fonts
+$fontLora: 'Lora', serif;
+$fontNorms: 'TT Norms', sans-serif;
+
+$fontSize: 18px;
+$fontLineHeight: 24px;
+
+// radius
+$radius: 4px;
+
+$spacer: 1rem;
+$spacers: ();
+$spacers: map-merge(
+  (
+    0: 0,
+    1: 1px,
+    2: 2px,
+    3: 3px,
+    4: 4px,
+    5: 5px
+  ),
+  $spacers
+);

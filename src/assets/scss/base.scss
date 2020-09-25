@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+svg,
+use {
+  pointer-events: none;
+}
+
+.load * {
+  transition: none !important;
+}
+
+img {
+  max-width: 100%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.wrapper {
+  overflow: hidden;
+}
+
+.align-middle {
+  vertical-align: middle;
+}
+
+.input-sm {
+  height: 34px;
+  line-height: 34px;
+  padding-top: 0!important;
+  padding-bottom: 0!important;
+}
+
+.form-control.input-sm {
+  height: 34px;
+  line-height: 34px;
+  padding-top: 0!important;
+  padding-bottom: 0!important;
+}
+
+select.input-sm {
+  height: 34px;
+  line-height: 34px;
+  padding: 0 12px 3px;
+}
+
+.page-wrapper {
+  padding-bottom: 10px;
+  overflow: auto;
+}

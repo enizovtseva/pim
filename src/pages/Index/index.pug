@@ -1,0 +1,14 @@
+extends ../../layouts/main
+
+block vars
+  - var title = 'Список страниц';
+  - var header = true;
+
+block content
+  .container
+    h2 Список страниц
+    ul.pages-list()&attributes(attributes)
+      each page in pages
+        if page.name !== 'index'
+          li.pages-list__item
+            a.pages-list__link.link(href= page.href, target="_blank")= page.name

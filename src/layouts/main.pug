@@ -1,0 +1,37 @@
+include ../components/Head/head
+include ../components/Header/header
+include ../components/Sidebar/sidebar
+include ../components/Footer/footer
+include ../components/Icon/icon
+
+block vars
+
+doctype html
+
+html(lang="ru")
+  +head()
+
+  // page
+  body.page.load(class=pageClass ? pageClass : '')
+    // svg icon sprite
+    div(style="display: none;")
+      include ../assets/sprite.svg
+
+    .wrapper.h-100
+
+      if header
+        // header
+        +header
+
+      if sidebar
+        // sidebar
+        +sidebar
+
+      // main
+      .page-wrapper.h-100
+        main.container-fluid
+          block content
+
+      // footer
+      if footer
+        +footer().page__footer

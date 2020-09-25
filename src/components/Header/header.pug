@@ -1,0 +1,18 @@
+mixin header
+  nav.navbar.navbar-inverse.navbar-fixed-top.justify-content-start.position-fixed
+    .mobile-only-brand.pull-left
+      .nav-header.pull-left
+        .logo-wrap
+          a(href="/") PIM
+      a.toggle-left-nav-btn.inline-block.ml-20.pull-left#toggle_nav_btn(href="javascript:void(0);")
+        i.zmdi.zmdi-menu
+      a.mobile-only-view#toggle_mobile_search(data-toggle="collapse" data-target="#search_form" href="javascript:void(0);")
+        i.zmdi.zmdi-search
+      a.mobile-only-view#toggle_mobile_nav(href="javascript:void(0);")
+        i.zmdi.zmdi-more
+      form.top-nav-search.collapse.pull-left#search_form(role="search")
+        .input-group
+          input.form-control(type="text" name="example-input1-group2" placeholder="Поиск")
+          span.input-group-btn
+            button.btn.btn-default(type="button" data-target="#search_form" data-toggle="collapse" aria-label="Close" aria-expanded="true")
+              i.zmdi.zmdi-search

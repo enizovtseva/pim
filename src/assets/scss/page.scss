@@ -1,0 +1,22 @@
+.page {
+  display: flex;
+  min-height: 100vh;
+  height: 100vh;
+  flex-direction: column;
+  background-color: $grayLighter;
+  overflow-y: scroll;
+
+  &__header,
+  &__footer {
+    flex-shrink: 0;
+  }
+
+  &__main {
+    flex: 1 0 auto;
+    padding: 90px 0 20px;
+
+    @media #{$md} {
+      padding-bottom: 30px;
+    }
+  }
+}

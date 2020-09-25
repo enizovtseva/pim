@@ -1,0 +1,28 @@
+@import "../scss/fonts";
+@import "../scss/normalize";
+@import "../scss/variables";
+@import "../scss/mixins";
+@import "../scss/base";
+@import "../scss/color";
+@import "../scss/page";
+@import "../scss/typography";
+@import "../scss/grid";
+
+@import "bootstrap";
+//@import "../../vendors/bower_components/bootstrap/dist/css/bootstrap.min.css";
+@import "../../vendors/bower_components/switchery/dist/switchery.min.css";
+@import "../../vendors/bower_components/bootstrap-select/dist/css/bootstrap-select.min.css";
+@import "../../vendors/bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css";
+@import "../../vendors/bower_components/bootstrap-daterangepicker/daterangepicker.css";
+@import "../../vendors/bower_components/nestable2/jquery.nestable.css";
+@import "../../vendors/bower_components/select2/dist/css/select2.min.css";
+@import "../../vendors/bower_components/multiselect/css/multi-select.css";
+@import "../../vendors/bower_components/bootstrap-switch/dist/css/bootstrap3/bootstrap-switch.min.css";
+@import "../../vendors/bower_components/bootstrap-table/dist/bootstrap-table.css";
+@import "../../vendors/bower_components/datatables/media/css/jquery.dataTables.min.css";
+@import "../../vendors/css/style.css";
+
+// base style component
+@import "../../components/Icon/icon";
+@import "../../components/Header/header";
+@import "../../components/Footer/footer";
